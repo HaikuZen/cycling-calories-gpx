@@ -1,0 +1,28 @@
+{
+  "name": "cycling-calories-gpx",
+  "version": "1.0.0",
+  "description": "Calculate calories burned during cycling using GPX track data",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "cycling",
+    "calories",
+    "gpx",
+    "fitness",
+    "tracking"
+  ],
+  "author": "HaikuZen",
+  "license": "MIT",
+  "dependencies": {
+    "xml2js": "^0.6.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
